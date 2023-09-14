@@ -55,9 +55,7 @@
     /* display: flex; */
 }
 
-.card h2,
-h3,
-h4 {
+.card h2,h3,h4 {
     font-size: 21px;
     display: inline;
     max-width: 100%;
@@ -107,7 +105,7 @@ i {
     font-size: 5rem;
     color: aliceblue;
     top: 10px;
-    position: fixed;
+    position: absolute;
     height: 100px;
     width: 200px;
 }

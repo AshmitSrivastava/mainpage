@@ -72,9 +72,17 @@ body img {
    box-shadow: 1px 1px 3px 2px grey;
 }
 
-#title{
+#title {
     margin-top: 10rem;
     margin-left: 7rem;
     font-size: 7rem;
     color: white;
+    position: relative; 
 }
+
+#title::after {
+    content: '|'; /* Add a cursor character */
+    animation: blink 0.7s infinite; /* Create a blinking effect */
+    color: rgb(255, 255, 255); /* Change cursor color to black for visibility */
+}
+

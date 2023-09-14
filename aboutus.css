@@ -17,6 +17,7 @@ flex-direction: column;
 justify-content: center;
 box-shadow: 0px 0px 14px 7px #c34bef;
 /* border: 6px solid black; */
+margin: 5rem;
 
 }
 
@@ -89,4 +90,14 @@ i{
     /* border: 12px solid grey; */
     box-shadow: 14px 13px 19px 24px #e07048
   
+}
+
+.card-container{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }

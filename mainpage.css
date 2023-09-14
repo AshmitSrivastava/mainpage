@@ -72,13 +72,25 @@ body img {
     border: 4px solid #e25f5f;
    /* box-shadow: 1px 1px 3px 2px grey; */
 }
-
-.sub_menu_1{
-    display: none;
+#title {
+    margin-top: 10rem;
+    margin-left: 7rem;
+    font-size: 7rem;
+    color: white;
+    position: relative; 
 }
-.navbar ul li a:hover, .sub_menu_1{
-    display: block;
-    position: absolute; 
-    margin-top: 15px;
-    margin-left: -15px;
+
+#title::after {
+    content: '|'; /* Add a cursor character */
+    animation: blink 0.7s infinite; /* Create a blinking effect */
+    color: rgb(255, 255, 255); /* Change cursor color to black for visibility */
+}
+
+#user_icon{
+    font-size: 2rem;
+}
+
+.fa-solidfa_user{
+    font-size: 2rem;
+    bor
 }
